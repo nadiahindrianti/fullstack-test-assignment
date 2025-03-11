@@ -1,0 +1,57 @@
+.add-trip-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgba(241, 241, 241, 1);
+}
+
+.add-trip-container {
+  width: 100%;
+  max-width: 800px;
+  background: rgba(241, 241, 241, 1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Styling untuk label */
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Input dan Select Styling */
+.add-trip-form input,
+.add-trip-form select,
+.add-trip-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.duration-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.duration-item {
+  width: 48%;
+}
+/* Submit Button */
+.btn-add-trip {
+  width: 100%;
+  padding: 10px;
+  background-color:  #f8af18;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-add-trip:hover {
+  background-color:  #f8af18;
+}

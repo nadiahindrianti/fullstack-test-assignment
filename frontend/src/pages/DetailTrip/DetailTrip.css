@@ -1,0 +1,106 @@
+.container.detail-trip {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(241, 241, 241, 1);
+    border-radius: 10px;
+  }
+  
+  
+  .trip-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .trip-info-container {
+    background: rgba(241, 241, 241, 1);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .trip-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Agar responsif */
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    width: 20%; 
+  }
+  
+  .info-title {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 5px;
+  }
+  
+  .info-content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .info-icon {
+    width: 24px; 
+    height: 24px;
+  }
+  
+  .info-text {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Styling Harga */
+  .trip-price {
+    display: inline-block;
+    color: rgba(255, 175, 0, 1);
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .trip-price span {
+    color: black;
+    font-weight: normal;
+  }
+  
+  
+  
+  .trip-description {
+    margin-top: 20px;
+  }
+  
+  
+  
+  .btn-delete {
+    background-color: rgba(255, 98, 0, 1);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .trip-footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: gray;
+  }
+  

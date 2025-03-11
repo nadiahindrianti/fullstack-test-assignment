@@ -1,0 +1,46 @@
+.trip-card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+  }
+  
+  .trip-img {
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .trip-slot {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    background: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .bg-warning {
+    background-color: #f8af18 !important;
+  }
+  
+  .container {
+    background: rgba(241, 241, 241, 1);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .trip-card {
+      width: 100%;
+      height: auto;
+    }
+    .trip-img {
+      height: 150px;
+    }
+  }
+  
+  
