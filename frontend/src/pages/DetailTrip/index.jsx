@@ -30,11 +30,7 @@ const DetailTrip = () => {
               <div className="info-item">
                 <p className="info-title">Accommodation</p>
                 <div className="info-content">
-                  <img
-                    src="https://res.cloudinary.com/dwh00k4um/image/upload/v1741678040/sistem/et8lrcxnjgw9vsoi4lew.png"
-                    alt="Hotel"
-                    className="info-icon"
-                  />
+                  <img src="https://res.cloudinary.com/dwh00k4um/image/upload/v1741678040/sistem/et8lrcxnjgw9vsoi4lew.png" alt="Hotel" className="info-icon" />
                   <p className="info-text">{trip.infoText.accommodation}</p>
                 </div>
               </div>
@@ -42,11 +38,7 @@ const DetailTrip = () => {
               <div className="info-item">
                 <p className="info-title">Transportation</p>
                 <div className="info-content">
-                  <img
-                    src="https://res.cloudinary.com/dwh00k4um/image/upload/v1741678039/sistem/lfsrv6keaisigz5hunnt.png"
-                    alt="Flight"
-                    className="info-icon"
-                  />
+                  <img src="https://res.cloudinary.com/dwh00k4um/image/upload/v1741678039/sistem/lfsrv6keaisigz5hunnt.png" alt="Flight" className="info-icon" />
                   <p className="info-text">{trip.infoText.transportation}</p>
                 </div>
               </div>
@@ -54,11 +46,7 @@ const DetailTrip = () => {
               <div className="info-item">
                 <p className="info-title">Eat</p>
                 <div className="info-content">
-                  <img
-                    src="https://res.cloudinary.com/dwh00k4um/image/upload/v1741678039/sistem/fv2vkp3p6bishu11okdo.png"
-                    alt="Meal"
-                    className="info-icon"
-                  />
+                  <img src="https://res.cloudinary.com/dwh00k4um/image/upload/v1741678039/sistem/fv2vkp3p6bishu11okdo.png" alt="Meal" className="info-icon" />
                   <p className="info-text">{trip.infoText.eat}</p>
                 </div>
               </div>
@@ -66,11 +54,7 @@ const DetailTrip = () => {
               <div className="info-item">
                 <p className="info-title">Duration</p>
                 <div className="info-content">
-                  <img
-                    src="https://res.cloudinary.com/dwh00k4um/image/upload/v1741678039/sistem/nwylfyw3h68vhcwk43bn.png"
-                    alt="Duration"
-                    className="info-icon"
-                  />
+                  <img src="https://res.cloudinary.com/dwh00k4um/image/upload/v1741678039/sistem/nwylfyw3h68vhcwk43bn.png" alt="Duration" className="info-icon" />
                   <p className="info-text">{trip.infoText.duration}</p>
                 </div>
               </div>
@@ -78,30 +62,21 @@ const DetailTrip = () => {
               <div className="info-item">
                 <p className="info-title">Date Trip</p>
                 <div className="info-content">
-                  <img
-                    src="https://res.cloudinary.com/dwh00k4um/image/upload/v1741678039/sistem/haxi4qql7ldijy1eh0nn.png"
-                    alt="Date Trip"
-                    className="info-icon"
-                  />
+                  <img src="https://res.cloudinary.com/dwh00k4um/image/upload/v1741678039/sistem/haxi4qql7ldijy1eh0nn.png" alt="Date Trip" className="info-icon" />
                   <p className="info-text">{trip.infoText.dateTrip}</p>
                 </div>
               </div>
             </div>
           </div>
 
-
-
           {/* Deskripsi */}
           <div className="trip-description">
             <h5>Description</h5>
-            <p>
-              Lorem ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem ipsum has been the industry's standard dummy text ever since the 1500s.
-            </p>
+            <p>{trip.infoText.description}</p> {/* Menampilkan deskripsi dari Trips.js */}
           </div>
 
           {/* Harga */}
-          <h3 className="trip-price"> {trip.price} <span>/ Person</span></h3>
+          <h3 className="trip-price">{trip.price} <span>/ Person</span></h3>
 
           {/* Tombol Delete */}
           <button className="btn-delete" onClick={() => navigate("/")}>Delete Trip</button>

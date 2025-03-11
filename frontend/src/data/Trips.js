@@ -11,7 +11,8 @@ const Trips = [
       transportation: "Qantas Airways",
       eat: "Buffet & Local Cuisine",
       duration: "6 Day 4 Night",
-      dateTrip: "15 July 2024"
+      dateTrip: "15 July 2024",
+      description: "Jelajahi keindahan Tokyo dengan pengalaman budaya yang autentik."
     }
   },
   {
@@ -26,7 +27,8 @@ const Trips = [
       transportation: "Korean Air",
       eat: "Korean BBQ & Buffet",
       duration: "6 Day 4 Night",
-      dateTrip: "10 August 2024"
+      dateTrip: "10 August 2024",
+      description: "Jelajahi keindahan Tokyo dengan pengalaman budaya yang autentik."
     }
   },
   {
@@ -41,7 +43,8 @@ const Trips = [
       transportation: "Japan Airlines",
       eat: "Sushi & Ramen",
       duration: "8 Day 6 Night",
-      dateTrip: "20 September 2024"
+      dateTrip: "20 September 2024",
+      description: "Jelajahi keindahan Tokyo dengan pengalaman budaya yang autentik."
     }
   },
   {
@@ -56,7 +59,8 @@ const Trips = [
       transportation: "Private Car",
       eat: "Local Food & Snacks",
       duration: "4 Day 3 Night",
-      dateTrip: "5 June 2024"
+      dateTrip: "5 June 2024",
+      description: "Jelajahi keindahan Tokyo dengan pengalaman budaya yang autentik."
     }
   },
   {
@@ -71,7 +75,8 @@ const Trips = [
       transportation: "Garuda Indonesia",
       eat: "Seafood & BBQ",
       duration: "4 Day 3 Night",
-      dateTrip: "12 October 2024"
+      dateTrip: "12 October 2024",
+      description: "Jelajahi keindahan Tokyo dengan pengalaman budaya yang autentik."
     }
   },
   {
@@ -86,7 +91,8 @@ const Trips = [
       transportation: "ANA Airlines",
       eat: "Japanese Bento & Ramen",
       duration: "5 Day 4 Night",
-      dateTrip: "25 December 2024"
+      dateTrip: "25 December 2024",
+      description: "Jelajahi keindahan Tokyo dengan pengalaman budaya yang autentik."
     }
   }
 ];
